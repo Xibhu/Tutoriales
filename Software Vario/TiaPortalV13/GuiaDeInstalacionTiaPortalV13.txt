@@ -1,0 +1,9 @@
+ 
+Quitar internet del equipo.
+Montar la imagen ISO "SIMATIC STEP7 Professional_V13.iso" e instalar.
+Montar la imagen ISO "SIMATIC STEP7 V13 PLCSIM.iso" e instalar.
+En la carpeta "Update 1" instalar el exe "SIMATIC_TIAP_V13_UPD1.exe".
+Descomprimir el zip "Simatic_EKB_Install_2013_12_25.zip" y abrir el ejecutable "Sim_EKB_Install_2013_12_25".
+En el panel izquierdo abrir la carpeta "TIA Portal", tener marcado "TIA Portal v13 (2013/11)".
+En los registros, marcar "STEP 7 Professional V13" y "S7-PLCSIM v13".
+Pisar el primer botón de la llave. Cerrar ya el programa de claves, y abrir el "TIA Portal V13" y utilizarlo de forma normal.
