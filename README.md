@@ -4,13 +4,10 @@ Repositorio para almacenar conocimientos, tutoriales, consejos y trucos de diver
 + Sistemas Operativos
   + Windows
   + Linux
-  + Máquinas virtuales
 + Software vario
 + Hardware
 + Programación
-  + Puertas lógicas
-  + Programar en distintos lenguajes
 + Ofimática y escritura
   + LibreOffice
-  + Microsoft Office
   + Markdown
++ Raspberry Pi
