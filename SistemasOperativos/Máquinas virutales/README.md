@@ -1,3 +1,0 @@
-
-# Instalación y configuración VirtualBox
-
