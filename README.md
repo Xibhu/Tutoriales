@@ -4,8 +4,6 @@ Repositorio para almacenar conocimientos, tutoriales, consejos y trucos de diver
 + [SistemasOperativos](SistemasOperativos)
   + [Windows](SistemasOperativos/Windows)
   + [Linux](SistemasOperativos/Linux)
-+ [SoftwareVario](SoftwareVario)
-+ [Hardware](Hardware)
 + [Programación](Programacion)
 + [Ofimática](Ofimatica)
   + [LibreOffice](Ofimatica/LibreOffice)
