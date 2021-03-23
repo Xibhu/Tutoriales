@@ -381,7 +381,7 @@ Para crear un lightweight tag.
 >`git tag <VERSION>`  
 >`git tag <VERSION> <SHA-1>`
 
-PAra crear un annotated tag. Son los que realmente se ven en las releases y que contienen mayor información.
+Para crear un annotated tag. Son los que realmente se ven en las releases y que contienen mayor información.
 
 >`git tag -a <VERSION>`  
 >`git tag -a <VERSION> <SHA-1>`
