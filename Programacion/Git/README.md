@@ -41,11 +41,13 @@ Para conseguir todo esto, se debe tener una carpeta como un repositorio de Git e
 El repositorio se divide en tres áreas con las que trabaja Git.
 
 +   Working directory
-    +   Es el directorio de trabajo actual, donde se modifican los archivos. Cuando se cambia de un branch a otro o de la visualización de un commit a otro, el working directory cambia, perdiendo los datos modificados que no se les haya hecho commit. Se puede evitar.
+    +   Es el directorio de trabajo actual, donde se modifican los archivos. Cuando se cambia de un branch a otro o de la visualización de un commit a otro, el working directory cambia, pudiendo perder los datos modificados que no se les haya hecho commit. 
 +   Stagging area
-    +   Es la zona donde se guarda temporalmente los archivos marcados para el próximo commit. Aún no hay nada guardado y se puede perder. Como en un cambio de branch.
+    +   Es la zona donde se guarda temporalmente los archivos marcados para el próximo commit. Aún no hay nada guardado y se puede perder.
 +   .git directory
     +   Es la zona que corresponde a la base de datos del repositorio, donde están guardados todos los branch, commit, referencias e historial del proyecto. Cada vez que se hace un commit, los archivos pasan aquí y ya no se perderán, están seguros.
+
+Ante la posible pérdida de datos, Git nos avisará de ello antes de proceder.
 
 ![Áereas del repositorio](imagenes/States.png)
 
@@ -158,8 +160,6 @@ collaborate (see also: git help workflows)
 
 Si colocamos `git help -a` nos mostrará todo el listados disponible de git.
 
-A partir de aquí el flujo de trabajo será el siguiente.
-
 <br>
 
 ## Inicializar un repositorio
@@ -201,7 +201,7 @@ Se clona dicho repositorio, por ejemplo con https, se verá en el botón verde "
 
 ### Conexión segura SSH
 
-Si se va a usar Github a través de terminal, se deberá establecer una conexión ssh. Seguir las instrucciones [aquí](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) indicadas.
+Si se va a usar Github a través de terminal, se deberá establecer una conexión SSH. Seguir las instrucciones [aquí](https://docs.github.com/en/github/authenticating-to-github/connecting-to-github-with-ssh) indicadas.
 
 Si en windows se usa `GitHub Desktop` no se vería afectado y no es neceario.
 
@@ -223,11 +223,11 @@ Cuando estén listos para ser guardados en la base de datos se hace lo siguiente
 Si se pone un punto `.` se añadirá todo lo que pille.
 >Ejemplo: `git add .`
 
-Si se quiere quitar un archivo del staggin area.
+Si se quiere quitar un archivo del stagging area.
 
 >`git restore --stagged <file>`
 
-Si se quiere eliminar las modificaciones a un archivo que no esté en el staggin area.
+Si se quiere eliminar las modificaciones a un archivo que no esté en el stagging area.
 
 >`git restore <file>`
 
