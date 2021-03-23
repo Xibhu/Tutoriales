@@ -295,7 +295,7 @@ Si se quisiera hacer una subida forzada al remoto (no recomendable) porque no co
 
 ### Mostrar el historial
 
-Si se quiere ver los commit hechos.
+Si se quiere ver los commit hechos y su SHA-1.
 
 >`git log`
 
@@ -340,6 +340,62 @@ Enviar una rama nueva al remote.
 ---
 
 <br>
+
+### Ver diferencias entre commit
+
+Para ver las diferencias entre un commit y el padre.
+
+>`git show <SHA-1>`
+
+Para ver los archivos de un commit.
+
+>`git show "<SHA-1>:"`
+
+Para ver el contenido de un archivo concreto en un commit.
+
+>`git show "<SHA-1>:archivo.txt"`
+
+Para ver las diferencias entre el working directory y el último commit
+
+>`git diff`
+
+Para ver las diferencias entre dos commit.
+
+>`git diff <SHA-1> <SHA-1>`
+
+Para ver las diferencias entre branch.
+
+>`git diff <branch>...<otherBranch>`
+
+### Marcar un commit
+
+Se puede dar un tag a un commit concreto para marcarlo como una versión concreta.
+
+Ver todos los tag.
+
+>`git tag`  
+>`git tag -l`
+
+Para crear un lightweight tag.
+
+>`git tag <VERSION>`  
+>`git tag <VERSION> <SHA-1>`
+
+PAra crear un annotated tag. Son los que realmente se ven en las releases y que contienen mayor información.
+
+>`git tag -a <VERSION>`  
+>`git tag -a <VERSION> <SHA-1>`
+
+Los tag no se envían automáticamente al remoto, hay que forzarlo.
+
+Para uno solo.
+
+>`git push <nombreRemoto> <TAG>`
+>>`git push origin V1.2`
+
+Para enviar todos los tag.
+
+>`git push <nombreRemoto> --tags`
 
 ### Borrar commits
 
