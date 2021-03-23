@@ -341,6 +341,52 @@ Enviar una rama nueva al remote.
 
 <br>
 
+### Crear y usar .gitignore
+
+Un archivo `.gitingore` se utiliza para ignorar archivos que jamás deben ser tenidos en cuenta para los commits. De esta manera ni siquiera aparecerán como untracked al realizar un `git status`. Se pueden tener varios archivos .gitingnore pero para proyectos pequeños con tener uno en la raíz es suficiente.
+
+Una vez creado el archivo, se colocará una definición de exclusión por línea, pudiendose usar expresiones regulares.
+
+Tomando como ejemplo los que vienen en el libro de Pro git.
+
+Las reglas sobre los patrones que puedes incluir en el archivo .gitignore son las siguientes:
+
++ Ignorar las líneas en blanco y aquellas que comiencen con #.
++ Aceptar patrones glob estándar.
++ Los patrones pueden empezar en barra (/) para evitar recursividad.
++ Los patrones pueden terminar en barra (/) para especificar un directorio.
++ Los patrones pueden negarse si se añade al principio el signo de exclamación (!).
+
+Los patrones glob son una especie de expresión regular simplificada usada por los terminales. Un asterisco (*) corresponde a cero o más caracteres; [abc] corresponde a cualquier caracter dentro de los corchetes (en este caso a, b o c); el signo de interrogación (?) corresponde a un caracter cualquiera; y los corchetes sobre caracteres separados por un guión ([0-9]) corresponde a cualquier caracter entre ellos (en este caso del 0 al 9). También puedes usar dos asteriscos para indicar directorios anidados; a/**/z coincide con a/z, a/b/z, a/b/c/z, etc.
+
+```
+# Ignora todos los archivos que sean de extensión ".o" ó ".a"
+*.[oa]
+
+# Ignora todos los archivos que acaben en "~", los cuales pertenecen a temporales
+*~
+
+# ignora los archivos terminados en .a
+*.a
+
+# pero no lib.a, aun cuando había ignorado los archivos terminados en .a en la línea
+anterior
+!lib.a
+
+# ignora unicamente el archivo TODO de la raiz, no subdir/TODO
+/TODO
+
+# ignora todos los archivos del directorio build/
+build/
+
+# ignora doc/notes.txt, pero no este: doc/server/arch.txt
+doc/*.txt
+
+# ignora todos los archivos .txt del directorio doc/
+doc/**/*.txt
+
+```
+
 ### Ver diferencias entre commit
 
 Para ver las diferencias entre un commit y el padre.
