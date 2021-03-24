@@ -335,6 +335,10 @@ Enviar una rama nueva al remote.
 
 >`git push <nombreRemote> <nombreRama>`
 
+Borrar una rama del remoto.
+
+>`git push -d <nombreRemote> <nombreRama>`
+
 ![](imagenes/Ramas.jpg)
 
 ---
