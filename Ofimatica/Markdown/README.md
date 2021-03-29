@@ -9,17 +9,33 @@ O este plugin de Visual Studio Code [Plugin VisualStudioCode](https://marketplac
 
 # Índice
 
-+ [Títulos y párrafos](#títulos-y-párrafos "Como se colocan los distintos títulos")
-+ [Espacios y separador](#espacios-y-separador "Como conseguir separación para mejorar la legilibidad")
-+ [Listas](#listas "Como crear listas, para irte de compras también si quieres")
-+ [CheckBox](#checkbox "Como hacer una lista en la que puedes confirmar, esta es mejor para la compra")
-+ [Dar énfasis al texto](#dar-énfasis-al-texto "Como resaltar algo importante")
-+ [Tablas](#tablas "Como ordenar datos en tablas")
-+ [Citar texto](#citar-texto "Como citar un texto concreto")
-+ [Utilizar código](#utilizar-código "Como colocar bloques de código y que se vean bien")
-+ [Links](#links "Como llevar a la gente a mi GitHub")
-+ [Links imágenes](#links-imágenes "Como llevar a la gente a mi GitHub pero con razones")
-+ [Fuentes](#fuentes "Información sacada de estos sitios")
+- [Recopilación de Markdown hecha por Xibhu en Español](#recopilación-de-markdown-hecha-por-xibhu-en-español)
+- [Índice](#índice)
+- [Títulos y párrafos](#títulos-y-párrafos)
+- [UNO](#uno)
+	- [DOS](#dos)
+		- [TRES](#tres)
+			- [CUATRO](#cuatro)
+				- [CINCO](#cinco)
+					- [SEIS](#seis)
+	- [DOS](#dos-1)
+- [Otro tipo de título 1](#otro-tipo-de-título-1)
+- [Espacios y separador](#espacios-y-separador)
+	- [Separador](#separador)
+	- [Espacio entre palabras](#espacio-entre-palabras)
+	- [Espacio entre párrafos](#espacio-entre-párrafos)
+- [Listas](#listas)
+	- [Sin orden:](#sin-orden)
+	- [Ordenadas:](#ordenadas)
+	- [Mezcla:](#mezcla)
+- [CheckBox](#checkbox)
+- [Dar énfasis al texto](#dar-énfasis-al-texto)
+- [Tablas](#tablas)
+- [Citar texto](#citar-texto)
+- [Utilizar código](#utilizar-código)
+- [Links](#links)
+- [Links imágenes](#links-imágenes)
+- [Fuentes](#fuentes)
 
 ---
 <br><br>
@@ -499,6 +515,11 @@ Dejando [solo texto]
 # Links imágenes
 
 Las imágenes son parecidas a los links, pero al principio llevan una exclamación. Se puede utilizar de la misma manera. En un solo link, referencia con número, referencia con palabras, o solo texto, todo con los tooltip opcionales.
+
+![Texto alternativo](imagenes/States.png)
+```markdown
+![Texto alternativo](imagenes/States.png)
+```
 
 ![Texto alternativo de la imagen](https://www.chiquipedia.com/imagenes/imagenes-animo09.jpg)
 ```markdown
