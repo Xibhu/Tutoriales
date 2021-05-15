@@ -253,6 +253,10 @@ Se puede colocar ese mismo mensaje en la propia línea de terminal con lo siguie
 
 >`git commit -m "mensaje de commit"`
 
+Se puede cambiar el mensaje del último commit. (Reservado para uso local. Se pueden añadir archivos con `add` si faltaban dentro de ese commit antes de usar el comando.)
+
+>`git commit --amend`
+
 ![](imagenes/EstadosArchivo.jpg)
 
 ---
