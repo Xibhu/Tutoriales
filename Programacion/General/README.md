@@ -1,7 +1,7 @@
 
-# Programar mejor
+# Gestión de proyectos
 
-Recopilación de pequeños consejos para mejorar de forma general en programación y gestión de proyectos.
+Recopilación de pequeños consejos para mejorar pequeñas cosas de forma general en programación y gestión de proyectos.
 
 ## Para proyectos o programación general:
 
